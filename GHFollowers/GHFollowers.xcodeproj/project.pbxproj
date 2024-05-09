@@ -18,6 +18,7 @@
 		563340072BDA75AD00403EAC /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563340062BDA75AD00403EAC /* SearchVC.swift */; };
 		563340092BDA75FA00403EAC /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563340082BDA75FA00403EAC /* FavoritesListVC.swift */; };
 		5633400B2BDA8F2000403EAC /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5633400A2BDA8F2000403EAC /* GFButton.swift */; };
+		5644EE2A2BED577200F61228 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5644EE292BED577200F61228 /* Follower.swift */; };
 		56E4C1852BDB9CFE00F7D24B /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E4C1842BDB9CFE00F7D24B /* GFTextField.swift */; };
 		56E4C1872BDCDBBD00F7D24B /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E4C1862BDCDBBD00F7D24B /* FollowerListVC.swift */; };
 /* End PBXBuildFile section */
@@ -36,6 +37,7 @@
 		563340062BDA75AD00403EAC /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		563340082BDA75FA00403EAC /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
 		5633400A2BDA8F2000403EAC /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
+		5644EE292BED577200F61228 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		56E4C1842BDB9CFE00F7D24B /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
 		56E4C1862BDCDBBD00F7D24B /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,6 +72,7 @@
 		56333FF12BDA6D6E00403EAC /* GHFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				5644EE282BED574B00F61228 /* Model */,
 				5643811A2BEAB4AC005B3C9F /* Extension */,
 				564381192BEAB46B005B3C9F /* Custom Views */,
 				564381182BEAB435005B3C9F /* Screens */,
@@ -118,6 +121,14 @@
 				56333FFD2BDA6D7100403EAC /* LaunchScreen.storyboard */,
 			);
 			path = Support;
+			sourceTree = "<group>";
+		};
+		5644EE282BED574B00F61228 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5644EE292BED577200F61228 /* Follower.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +208,7 @@
 				563340072BDA75AD00403EAC /* SearchVC.swift in Sources */,
 				562821B72BE8F14500A2E887 /* GFAlertVC.swift in Sources */,
 				562821B52BE8EEAD00A2E887 /* GFBodyLabel.swift in Sources */,
+				5644EE2A2BED577200F61228 /* Follower.swift in Sources */,
 				562821B32BE8ECBE00A2E887 /* GFTitleLabel.swift in Sources */,
 				56E4C1872BDCDBBD00F7D24B /* FollowerListVC.swift in Sources */,
 				56333FF32BDA6D6E00403EAC /* AppDelegate.swift in Sources */,
