@@ -5,8 +5,7 @@
 //  Created by Ömer Oğuz Çelikel on 9.05.2024.
 //
 
-import Foundation
-
-struct Follower: Codable{
-    
+struct Follower: Codable {
+    var login: String
+    var avatarUrl: String
 }
