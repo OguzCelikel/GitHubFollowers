@@ -33,6 +33,7 @@
 		56EED6E32C00C34D009DCF06 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EED6E22C00C34D009DCF06 /* Constants.swift */; };
 		56EED6E52C01E42D009DCF06 /* GFUserInfoHeaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EED6E42C01E42D009DCF06 /* GFUserInfoHeaderVC.swift */; };
 		56EED6E72C01E71F009DCF06 /* GFItemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EED6E62C01E71F009DCF06 /* GFItemInfoView.swift */; };
+		56EED6E92C0206C7009DCF06 /* GFItemInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EED6E82C0206C7009DCF06 /* GFItemInfoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		56EED6E22C00C34D009DCF06 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		56EED6E42C01E42D009DCF06 /* GFUserInfoHeaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFUserInfoHeaderVC.swift; sourceTree = "<group>"; };
 		56EED6E62C01E71F009DCF06 /* GFItemInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoView.swift; sourceTree = "<group>"; };
+		56EED6E82C0206C7009DCF06 /* GFItemInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,6 +227,7 @@
 			children = (
 				562821B62BE8F14500A2E887 /* GFAlertVC.swift */,
 				56EED6E42C01E42D009DCF06 /* GFUserInfoHeaderVC.swift */,
+				56EED6E82C0206C7009DCF06 /* GFItemInfoVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -315,6 +318,7 @@
 				5633400B2BDA8F2000403EAC /* GFButton.swift in Sources */,
 				562821BB2BE8FDD000A2E887 /* UIViewController+Ext.swift in Sources */,
 				56A9B8272BF2750900FFF27F /* UIHelper.swift in Sources */,
+				56EED6E92C0206C7009DCF06 /* GFItemInfoVC.swift in Sources */,
 				56EED6E32C00C34D009DCF06 /* Constants.swift in Sources */,
 				561D19A42BF1203100B0CC89 /* GFAvatarImageView.swift in Sources */,
 				56EED6DF2C00C066009DCF06 /* GFSecondaryTitleLabel.swift in Sources */,
