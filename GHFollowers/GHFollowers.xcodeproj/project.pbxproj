@@ -32,6 +32,7 @@
 		56EED6DF2C00C066009DCF06 /* GFSecondaryTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EED6DE2C00C066009DCF06 /* GFSecondaryTitleLabel.swift */; };
 		56EED6E32C00C34D009DCF06 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EED6E22C00C34D009DCF06 /* Constants.swift */; };
 		56EED6E52C01E42D009DCF06 /* GFUserInfoHeaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EED6E42C01E42D009DCF06 /* GFUserInfoHeaderVC.swift */; };
+		56EED6E72C01E71F009DCF06 /* GFItemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EED6E62C01E71F009DCF06 /* GFItemInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		56EED6DE2C00C066009DCF06 /* GFSecondaryTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFSecondaryTitleLabel.swift; sourceTree = "<group>"; };
 		56EED6E22C00C34D009DCF06 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		56EED6E42C01E42D009DCF06 /* GFUserInfoHeaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFUserInfoHeaderVC.swift; sourceTree = "<group>"; };
+		56EED6E62C01E71F009DCF06 /* GFItemInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				566C8A652BF66C5F00843327 /* GFEmptyStateView.swift */,
+				56EED6E62C01E71F009DCF06 /* GFItemInfoView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 				561D19A42BF1203100B0CC89 /* GFAvatarImageView.swift in Sources */,
 				56EED6DF2C00C066009DCF06 /* GFSecondaryTitleLabel.swift in Sources */,
 				563340072BDA75AD00403EAC /* SearchVC.swift in Sources */,
+				56EED6E72C01E71F009DCF06 /* GFItemInfoView.swift in Sources */,
 				562821B72BE8F14500A2E887 /* GFAlertVC.swift in Sources */,
 				561D19A22BF11F8300B0CC89 /* FollowerCell.swift in Sources */,
 				562821B52BE8EEAD00A2E887 /* GFBodyLabel.swift in Sources */,
