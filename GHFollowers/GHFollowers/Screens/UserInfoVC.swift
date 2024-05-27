@@ -7,7 +7,7 @@
 
 import UIKit
 
-protocol UserInfoVCDelegate: class {
+protocol UserInfoVCDelegate: AnyObject {
     func didTapGitHubProfile(for user: User)
     func didTapGetFollowers(for user: User)
 }
@@ -33,7 +33,7 @@ class UserInfoVC: UIViewController {
     
     func configureViewController() {
         view.backgroundColor = .systemBackground
-        let doneButton = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(dismssVC))
+        let doneButton = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(dismissVC))
         navigationItem.rightBarButtonItem = doneButton
     }
     
@@ -107,7 +107,7 @@ class UserInfoVC: UIViewController {
     }
     
     
-    @objc func dismssVC() {
+    @objc func dismissVC() {
         dismiss(animated: true)
     }
 }
@@ -130,7 +130,7 @@ extension UserInfoVC: UserInfoVCDelegate {
         }
         
         delegate.didRequestFollowers(for: user.login)
-        dismssVC()
+        dismissVC()
     }
 }
 
