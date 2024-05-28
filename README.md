@@ -9,11 +9,23 @@ Search Screen
 
 Result Screen
 
-![screen1](ss/Result.png) 
+![screen1](ss/Result2.png) 
 
 Empty Screen
 
 ![screen1](ss/Empty.png) 
+
+User Profile Screen
+
+![screen1](ss/UserProfile.png) 
+
+Add User To Favorites
+
+![screen1](ss/AddFavorite.png) 
+
+Favorites Screen
+
+![screen1](ss/Favorites.png) 
 
 
 
