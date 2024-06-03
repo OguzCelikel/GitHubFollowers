@@ -5,6 +5,8 @@
 //  Created by Ömer Oğuz Çelikel on 10.05.2024.
 //
 
+import Foundation
+
 struct User: Codable {
     let login: String
     let avatarUrl: String
@@ -16,5 +18,5 @@ struct User: Codable {
     let htmlUrl: String
     let following: Int
     let followers: Int
-    let createdAt: String
+    let createdAt: Date
 }

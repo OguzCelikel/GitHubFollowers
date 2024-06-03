@@ -45,9 +45,10 @@ class NetworkManager {
             }
             
             do {
-                let decoder = JSONDecoder()
-                decoder.keyDecodingStrategy = .convertFromSnakeCase
-                let followers = try decoder.decode([Follower].self, from: data)
+                let decoder                  = JSONDecoder()
+                decoder.keyDecodingStrategy  = .convertFromSnakeCase
+                decoder.dateDecodingStrategy = .iso8601
+                let followers                = try decoder.decode([Follower].self, from: data)
                 //completed(followers, nil)
                 completed(.success(followers))
             } catch {
